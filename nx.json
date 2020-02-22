@@ -1,0 +1,22 @@
+{
+  "npmScope": "schematics-playground",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "default": {
+      "tags": []
+    },
+    "default-e2e": {
+      "tags": [],
+      "implicitDependencies": ["default"]
+    }
+  }
+}
